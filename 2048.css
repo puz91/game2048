@@ -1,0 +1,82 @@
+body{
+    text-align: center;
+}
+hr{
+    width: 500px;
+}
+#board{
+    width: 400px;
+    height: 400px;
+
+    background-color: rgb(239, 211, 243);
+    border: 6px solid #995dab;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.tile{
+    width: 90px;
+    height: 90px;
+    border: 5px solid #995dab;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.x2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(140, 140, 140);
+}
+.x4{
+    background-color: rgb(248, 151, 172);
+    color: rgb(255, 255, 255);
+}
+.x64{
+    background-color: rgb(70, 176, 151);
+    color: rgb(47, 42, 89);
+}
+.x16{
+    background-color: rgb(241, 255, 131);
+    color: rgb(74, 74, 197);
+}
+.x32{
+    background-color: rgb(226, 177, 0);
+    color: rgb(255, 255, 255);
+}
+.x8{
+    background-color: rgb(233, 64, 132);
+    color: rgb(255, 184, 230);
+}
+.x128{
+    background-color: rgb(77, 219, 232);
+    color: rgb(255, 255, 255);
+}
+.x256{
+    background-color: rgb(24, 103, 231);
+    color: rgb(182, 247, 255);
+}
+.x1024{
+    background-color: rgb(218, 224, 33);
+    color: rgb(243, 134, 24);
+}
+.x512{
+    background-color: rgb(231, 24, 179);
+    color: rgb(255, 255, 255);
+}
+.x2048{
+    background-color: rgb(231, 117, 24);
+    color: rgb(253, 255, 160);
+}
+.x4096{
+    background-color: rgb(159, 4, 4);
+    color: rgb(255, 255, 255);
+}
+.x8192{
+    background-color: rgb(50, 0, 68);
+    color: rgb(255, 255, 255);
+}
